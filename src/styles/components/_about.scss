@@ -1,0 +1,249 @@
+.contents{
+    position: relative;
+    background-color: E5E5E5;
+    margin: 0 auto;
+}
+
+.page-container{
+    width: 70vw;
+    height: 100%;
+    display: block;
+    margin-top: 8vh;
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+
+.page-title{
+    display: inline-block;
+    font-family: 'Pattaya';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #000000;
+}
+
+.line{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 0px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #FF9933;
+    @media (max-width: 960px) {
+        width: 300px;
+    }
+    @media (max-width: 682px) {
+        width: 100px;
+    }
+    @media (max-width: 393px) {
+        display: none;
+    }
+}
+
+.about-me{
+    width: 50%;
+    margin-top: -20px;
+    font-family: 'Poppins', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    @media (max-width: 1000px) {
+        width: 100%;
+    }
+    @media (max-width:508px) {
+        font-size: 12px;
+    }
+    @media (max-width:380px) {
+        font-size: 10px;
+    }
+}
+
+.profile-container{
+    position: relative;
+    margin-left: 49vw;
+    top:-680px;
+    width: 210px;
+    height: 280px;
+    background: linear-gradient(to bottom, black, #ff9933);
+    padding: 0.7rem;
+    transition: transform 0.3s ease-in;
+    transform: translateX(0px) translateY(0px);
+    border-radius: 3px;
+}
+
+
+.fill-inside{
+    height: 250px;
+    width: 178px;
+    padding: 1rem;
+    background:white;
+}
+
+.profile-pic-container{
+    position: relative;
+    display: block;
+    margin-left: 47vw;
+    width: 220px;
+    height: 290px;
+    top:-420px;
+    z-index: 1;
+    background-color: lightgrey;
+}
+
+.profile-pic{
+    display: block;
+    width: 220px;
+    height: 290px;
+    opacity: 0.6;
+    z-index: 1;
+
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.house{
+    width: 280px;
+    height: 320px;
+    @media (max-width:1000px) {
+        display: none;
+    }
+}
+
+.house:hover{
+    .profile-container{
+        transform: translateX(-10px) translateY(-25px);
+    }
+}
+
+.interests-title{
+    display: inline;
+    font-family: 'Pattaya';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #000000;
+}
+
+.linetwo{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 0px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    border: 2px solid #FF9933;
+    @media (max-width: 960px) {
+        width: 100px;
+    }
+    @media (max-width: 682px) {
+        width: 50px;
+    }
+    @media (max-width: 393px) {
+        display: none;
+    }
+}
+
+.interests-group, .interests-group-two{
+    @media (max-width:686px){
+        display: flex;
+    }
+}
+.interest{
+    display: inline-block;
+    width: 130px;
+    height: 60px;
+    margin: 15px;
+    border-radius: 10px;
+    background: lighten($color: #ff9933, $amount: 30%);
+    border: 1px solid #FF9933;
+}
+
+.interests{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: 'Pattaya';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+
+    @media (max-width:618px){
+        font-size: 10px;
+        align-items: center;
+        top:12px;
+        text-align: center;
+        
+    }
+}
+
+.gaming:hover{
+    @media(min-width: 686px){
+        animation: fadein 2s;
+        background-image: url("../../assets/gaming.jpg");
+        .one{
+            visibility: hidden;
+        }
+    }
+    
+
+}
+
+.fitness:hover{
+    @media (min-width: 686px) {
+        animation: fadein 2s;
+        background-image: url("../../assets/fitness.jpg");
+        .two{
+            visibility: hidden;
+        }
+    }
+    
+}
+
+.anime:hover{
+    @media (min-width: 686px) {
+        animation: fadein 2s;
+        background-image: url("../../assets/anime.jpg");
+        .three{
+            visibility: hidden;
+        }
+    }
+    
+}
+
+.web-dev:hover{
+    @media (min-width: 686px) {
+        animation: fadein 2s;
+        background-image: url("../../assets/webdev.jpg");
+        .four{
+            visibility: hidden;
+        }
+    }
+    
+}
+
+.movies:hover{
+    @media (min-width: 686px) {
+        animation: fadein 2s;
+        background-image: url("../../assets/movies.jpg");
+        .five{
+            visibility: hidden;
+        }
+    }
+    
+}
+
+.hiking:hover{
+    @media (min-width: 686px) {
+        animation: fadein 2s;
+        background-image: url("../../assets/hiking.jpg");
+        .six{
+            visibility: hidden;
+        }
+    }
+    
+}
+
+
+
