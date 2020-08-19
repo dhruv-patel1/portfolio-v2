@@ -70,7 +70,7 @@ const Projects = () =>(
                         <Card.Title className="card-title">Portfolio Site</Card.Title>
                         <Card.Text className="card-text">This is the second version of my portfolio site showcasing who I am, what I know, and what I've done so far.</Card.Text>
                         <div className="card-links">
-                            <Card.Link className="card-link-text">Code</Card.Link>
+                            <Card.Link href="https://github.com/dhruv-patel1/portfolio-v2" className="card-link-text">Code</Card.Link>
                         </div>
                     </Card.Body>
                 </Card>

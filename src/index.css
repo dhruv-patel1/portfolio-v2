@@ -8,6 +8,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  width: 0.7em;
+  background-color: rgb(218, 216, 216);
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+background-color: rgb(88, 88, 88);
+outline: 1px solid slategrey;
 }
 
 code {
