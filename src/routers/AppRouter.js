@@ -9,7 +9,7 @@ import Contact from "../components/Contact";
 
 const AppRouter = () => (
     <div className="main">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Header/>
             <Dashboard/>
                 <Route path="/_#home" exact={true} component={Dashboard}/>
