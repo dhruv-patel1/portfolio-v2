@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter , Route} from "react-router-dom";
 import Header from "../components/Header";
 import Dashboard from "../components/Dashboard";
 import About from "../components/About";
@@ -9,7 +9,7 @@ import Contact from "../components/Contact";
 
 const AppRouter = () => (
     <div className="main">
-        <Router basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Header/>
             <Dashboard/>
                 <Route path="/_#home" exact={true} component={Dashboard}/>
@@ -21,7 +21,7 @@ const AppRouter = () => (
             <Skills/>
             <Projects/>
             <Contact/>
-        </Router>
+        </BrowserRouter>
         
     </div>
     
