@@ -40,7 +40,7 @@ const Projects = () =>(
                     </Card.Body>
                 </Card>
 
-                <Card className="project-card">
+                <Card className="project-card pc2">
                     <Card.Body>
                         <Card.Img variant="top" src={expensify} className="card-pic"/>
                         <Card.Title className="card-title">Expensify</Card.Title>

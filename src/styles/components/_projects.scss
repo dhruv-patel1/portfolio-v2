@@ -1,5 +1,5 @@
 .ppadjust{
-    height: 130vh;
+    height: 200vh;
 }
 
 .projects-page{
@@ -12,35 +12,39 @@
 .projects-container{
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    margin-bottom: 80px;
+    justify-items: center;
 }
 
 .project-card{
-    width: 21vw;
-    height: 41vh;
+    width: 27vw;
+    height: 45vh;
     background-color: rgb(241, 241, 241);
     border: 0.5px solid lightgray;
     box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.26);
 }
 
 .pc2{
-    margin: 35px 0px;
+    margin-top: 40px;
 }
+
+
 
 .card-pic{
-    width: 21vw;
-    height: 20vh;
+    width: 27vw;
+    height: 26vh;
 }
 
-@media (max-width: 45rem){
+@media (max-width: 1200px){
     .card-pic{
-        height: 15vh;
+        height: 20vh;
     }
 }
-@media (max-width: 30rem){
+@media (max-width: 850px){
     .card-pic{
-        height: 10vh;
+        height: 15vh;
     }
 }
 
@@ -49,6 +53,7 @@
     margin-top: 5px;
     font-family: "Pattaya";
     font-size: 16px;
+    margin-bottom: 3px;
 }
 
 @media (max-width: 45rem){
@@ -77,12 +82,12 @@
 }
 @media (max-width: 910px){
     .card-text{
-        font-size: 7px;
+        font-size: 8px;
     }
 }
 @media (max-width: 430px){
     .card-text{
-        font-size: 5px;
+        font-size: 7px;
     }
 }
 
