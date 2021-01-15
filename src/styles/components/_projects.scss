@@ -1,5 +1,8 @@
 .ppadjust{
     height: 200vh;
+    @media (min-height: 1000px) {
+        height: 170vh;
+    }
 }
 
 .projects-page{
