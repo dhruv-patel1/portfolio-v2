@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.bc144e3c.chunk.css",
-    "main.js": "/portfolio-v2/static/js/main.29114d80.chunk.js",
-    "main.js.map": "/portfolio-v2/static/js/main.29114d80.chunk.js.map",
+    "main.css": "/portfolio-v2/static/css/main.547ea800.chunk.css",
+    "main.js": "/portfolio-v2/static/js/main.428cd3a0.chunk.js",
+    "main.js.map": "/portfolio-v2/static/js/main.428cd3a0.chunk.js.map",
     "runtime-main.js": "/portfolio-v2/static/js/runtime-main.3514a9a5.js",
     "runtime-main.js.map": "/portfolio-v2/static/js/runtime-main.3514a9a5.js.map",
     "static/js/2.c6a29554.chunk.js": "/portfolio-v2/static/js/2.c6a29554.chunk.js",
     "static/js/2.c6a29554.chunk.js.map": "/portfolio-v2/static/js/2.c6a29554.chunk.js.map",
     "index.html": "/portfolio-v2/index.html",
-    "precache-manifest.ef171fe1af22be6361ac99728e006cec.js": "/portfolio-v2/precache-manifest.ef171fe1af22be6361ac99728e006cec.js",
+    "precache-manifest.2665e26d8133e324cb27f24a288469b0.js": "/portfolio-v2/precache-manifest.2665e26d8133e324cb27f24a288469b0.js",
     "service-worker.js": "/portfolio-v2/service-worker.js",
-    "static/css/main.bc144e3c.chunk.css.map": "/portfolio-v2/static/css/main.bc144e3c.chunk.css.map",
+    "static/css/main.547ea800.chunk.css.map": "/portfolio-v2/static/css/main.547ea800.chunk.css.map",
     "static/js/2.c6a29554.chunk.js.LICENSE.txt": "/portfolio-v2/static/js/2.c6a29554.chunk.js.LICENSE.txt",
     "static/media/about.svg": "/portfolio-v2/static/media/about.9215d470.svg",
     "static/media/styles.scss": "/portfolio-v2/static/media/webdev.86e0e8ec.jpg",
@@ -36,7 +36,7 @@
     "static/media/random-vid.PNG": "/portfolio-v2/static/media/random-vid.9c757af5.PNG",
     "static/media/react.svg": "/portfolio-v2/static/media/react.6ca9d736.svg",
     "static/media/recipe-app.PNG": "/portfolio-v2/static/media/recipe-app.6f2ac16f.PNG",
-    "static/media/resume.pdf": "/portfolio-v2/static/media/resume.595ee2f8.pdf",
+    "static/media/resume.pdf": "/portfolio-v2/static/media/resume.a3483daf.pdf",
     "static/media/riddle.PNG": "/portfolio-v2/static/media/riddle.4e3d1fbd.PNG",
     "static/media/sass.svg": "/portfolio-v2/static/media/sass.a72c6ed1.svg",
     "static/media/scratchlogo.png": "/portfolio-v2/static/media/scratchlogo.76764018.png",
@@ -48,7 +48,7 @@
   "entrypoints": [
     "static/js/runtime-main.3514a9a5.js",
     "static/js/2.c6a29554.chunk.js",
-    "static/css/main.bc144e3c.chunk.css",
-    "static/js/main.29114d80.chunk.js"
+    "static/css/main.547ea800.chunk.css",
+    "static/js/main.428cd3a0.chunk.js"
   ]
 }

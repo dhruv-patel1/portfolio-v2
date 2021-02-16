@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bd8a031f5340937ceb9b6c73b655e25",
+    "revision": "2f10b209483e4851f4b675df9ad27abc",
     "url": "/portfolio-v2/index.html"
   },
   {
-    "revision": "4b2add117cd1d5eacf30",
-    "url": "/portfolio-v2/static/css/main.bc144e3c.chunk.css"
+    "revision": "29e88a5afef6c087fb08",
+    "url": "/portfolio-v2/static/css/main.547ea800.chunk.css"
   },
   {
     "revision": "30227892cfa2b955340f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-v2/static/js/2.c6a29554.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b2add117cd1d5eacf30",
-    "url": "/portfolio-v2/static/js/main.29114d80.chunk.js"
+    "revision": "29e88a5afef6c087fb08",
+    "url": "/portfolio-v2/static/js/main.428cd3a0.chunk.js"
   },
   {
     "revision": "962abfe3789ceee4fbb2",
@@ -136,8 +136,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-v2/static/media/recipe-app.6f2ac16f.PNG"
   },
   {
-    "revision": "595ee2f8b88e1ab2eb745980769a53b3",
-    "url": "/portfolio-v2/static/media/resume.595ee2f8.pdf"
+    "revision": "a3483daf4a087170be65f6b7d537db36",
+    "url": "/portfolio-v2/static/media/resume.a3483daf.pdf"
   },
   {
     "revision": "4e3d1fbd00ec3a33fdb3ba6000705a7c",
